@@ -292,7 +292,7 @@ void setup() {
     return;
   }
 #else
-  WiFi.begin("AAWirelessDongle", "TestTest");
+  WiFi.begin("AAWirelessDongle", "password");
 
   // Wait for connection to WiFi
   while (WiFi.status() != WL_CONNECTED) {
