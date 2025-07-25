@@ -7,6 +7,8 @@ This works with [aa-proxy-rs](https://github.com/aa-proxy/aa-proxy-rs).
 ESP32Cam reads data and sends it through usb to pi4.
 Companion app ocr image in pi4 and sends battery data to aa-proxy-rs.
 
+Place the esp32cam at top cover of steering wheel and point it to battery percentage.
+
 You have to enable 
 "modprobe ch341" in init.d
 
