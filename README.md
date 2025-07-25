@@ -9,3 +9,6 @@ Companion app ocr image in pi4 and sends battery data to aa-proxy-rs.
 
 You have to enable 
 "modprobe ch341" in init.d
+
+To build use:
+docker build --target export --output type=local,dest=./output .

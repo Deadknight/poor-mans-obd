@@ -1,0 +1,6 @@
+mount -o remount,rw /
+scp -O text-detection.rten root@192.168.1.166:/persist/poor_mans_obd/
+scp -O text-recognition.rten root@192.168.1.166:/persist/poor_mans_obd/
+scp -O output/poor_mans_obd root@192.168.1.166:/persist/poor_mans_obd/  
+
+docker build --target export --output type=local,dest=./output . 
